@@ -1,0 +1,6 @@
+if SHIELD_HELLNO
+
+config ZMK_KEYBOARD_NAME
+    default "xplotusv1.1"
+
+endif # SHIELD_HELLNO
