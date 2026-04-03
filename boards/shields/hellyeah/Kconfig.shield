@@ -1,0 +1,2 @@
+config SHIELD_HELLYEAH
+    def_bool $(shields_list_contains,hellyeah)

@@ -1,0 +1,6 @@
+if SHIELD_HELLYEAH
+
+config ZMK_KEYBOARD_NAME
+    default "xplotus"
+
+endif # SHIELD_HELLYEAH
