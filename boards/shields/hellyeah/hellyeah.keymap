@@ -4,10 +4,25 @@
 
         default_layer {
             bindings = <
-                &kp Q  &kp W  &kp E  &none  &none
-                &kp A  &kp S  &kp D  &none  &none
-                &none  &none  &none  &kp Z  &none
-                &none  &none  &none  &none  &kp X
+                &kp B      &kp E      &kp V
+                &kp Z      &kp SPACE  &kp LALT
+
+                &mt LCTRL SPACE
+                &lt 1 LSHIFT
+            >;
+        };
+
+        fn_layer {
+            bindings = <
+                // Brush controls / misc
+                &kp LBKT   &kp RBKT   &kp X
+
+                // Undo / redo / UI
+                &kp Z      &kp Z      &kp TAB
+
+                // Direct keys
+                &kp LSHIFT
+                &kp ENTER
             >;
         };
     };
